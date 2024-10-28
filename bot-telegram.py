@@ -57,9 +57,8 @@ if __name__ == "__main__":
     # cria a instancia do bot
     app = ApplicationBuilder().token(TOKEN).build()
 
-    # comandos do bot
-    app.add_handler(CommandHandler("start", start))           # inicial
-    app.add_handler(CommandHandler("manual", manual_handler)) # envia o manual traduzido
+    # comando inicial do bot
+    app.add_handler(CommandHandler("start", start))      
     
     # Tratamento de mensagens de áudio
     app.add_handler(MessageHandler(filters.VOICE, audio_handler))
