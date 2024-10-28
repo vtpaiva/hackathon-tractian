@@ -49,9 +49,12 @@ if __name__ == "__main__":
 
     # Exemplo de uso da função
     prompt = f"""A partir do texto a seguir, identifique e liste quais são os serviços mencionados, o texto é {resultado}. 
-                 Após, recomende as ferramentas necessárias para todas as tarefas com seu código SAP de acordo com a tabela: 
-                 {formatar_dados_csv("Colinha de Códigos SAP.csv")}, me responda sem usar markdown, apenas como se estivesse 
-                 escrevendo um txt comum."""
+                    Após, recomende as ferramentas necessárias para todas as tarefas com seu código SAP de acordo com a tabela, 
+                    explicitando a disponibilidade da ferramente, citando ferramentas similares caso a ferramenta específica não 
+                    esteja disponível: {formatar_dados_csv("Colinha de Códigos SAP.csv")}, me responda sem usar markdown, apenas 
+                    como se estivesse escrevendo um txt comum.Sugira em forma de lista os equipamentos relativos a Ferramentas Manuais
+                    e Equipamentos de Segurança ao solicitante, ele pode precisar, me responda sem usar markdown, apenas como se estivesse 
+                    escrevendo um txt comum."""
                  
     resposta = gerar_resposta(prompt)
     print(f'Resposta: {resposta}')
