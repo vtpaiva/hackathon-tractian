@@ -37,10 +37,10 @@ if __name__ == "__main__":
     resultado = process_audio(file_path)
     print(resultado)
 
-    #print('------------------RESPOSTAGPT------------------------')
+    print('------------------RESPOSTAGPT------------------------')
 
     # Exemplo de uso da função
-    #prompt = f'A partir do texto a seguir, poderia identificar e listar quais são os serviços mencionados, o texto é {resultado}'
-    #resposta = gerar_resposta(prompt)
-    #print("Resposta:")
+    prompt = f'A partir do texto a seguir, poderia identificar e listar quais são os serviços mencionados, o texto é {resultado}'
+    resposta = gerar_resposta(prompt)
+    print(f'Resposta: {resposta}')
 
