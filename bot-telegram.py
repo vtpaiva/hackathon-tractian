@@ -6,8 +6,27 @@ import os
 # token bot telegram
 TOKEN = "7818166008:AAFbzLkyRsNXCSxyrNMWcFli6HBEtvhmfoQ"
 
+# mensagem inicial de boas vindas
 async def start(update: Update, context):
     await update.message.reply_text("Olá! Envie um áudio para que eu processe.")
+
+# funcao para processar o pedido de um manual
+async def manual_handler(update: Update, context):
+    if len(context.args) != 1:
+        await update.message.reply_text("Por favor, use o formato correto: /manual <nome_manual>")
+        return
+    
+    manual_name = context.args[0]  # pega o nome do manual passado como argumento
+    try:
+        # executa o script de processamento de manual com o nome do manual como argumento
+        result = subprocess.check_output(["python3", "manual_script.py", manual_name], text=True)
+        await update.message.reply_text(f"Resultado do manual '{manual_name}': {result.strip()}")
+
+
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao executar o manual '{manual_name}': {e}")
+        await update.message.reply_text(f"Ocorreu um erro ao executar o manual '{manual_name}': {e}")
+
 
 # funcao para processar o audio recebido
 async def audio_handler(update: Update, context):
@@ -33,13 +52,15 @@ async def audio_handler(update: Update, context):
     os.remove(audio_path)
     print(f"Arquivo de áudio {audio_path} removido.")
 
+
 if __name__ == "__main__":
     # cria a instancia do bot
     app = ApplicationBuilder().token(TOKEN).build()
 
     # comandos do bot
-    app.add_handler(CommandHandler("start", start))
-
+    app.add_handler(CommandHandler("start", start))           # inicial
+    app.add_handler(CommandHandler("manual", manual_handler)) # envia o manual traduzido
+    
     # Tratamento de mensagens de áudio
     app.add_handler(MessageHandler(filters.VOICE, audio_handler))
 
