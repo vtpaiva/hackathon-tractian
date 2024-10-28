@@ -1,0 +1,71 @@
+Categoria,Descrição do Material/Equipamento,Código SAP
+Ferramentas de Corte,Serra Circular,MAT001
+Ferramentas de Corte,Disco de Corte,MAT002
+Ferramentas de Corte,Serra de Fita,MAT003
+Ferramentas de Corte,Disco de Desbaste,MAT004
+Ferramentas de Corte,Broca de Aço Rápido 10mm,MAT005
+Ferramentas de Corte,Conjunto de Fresas para Usinagem,MAT006
+Ferramentas de Corte,Lâmina de Serra Sabre,MAT007
+Ferramentas de Corte,Lixadeira Angular,EQP001
+Ferramentas de Medição,Paquímetro Digital,MAT101
+Ferramentas de Medição,Micrômetro,MAT102
+Ferramentas de Medição,Relógio Comparador,MAT103
+Ferramentas de Medição,Trena de Aço 5m,MAT104
+Ferramentas de Medição,Nível de Bolha,MAT105
+Ferramentas de Medição,Goniômetro Digital,MAT106
+Ferramentas de Medição,Manômetro para Pressão,MAT107
+Ferramentas de Medição,Calibrador de Roscas,MAT108
+Equipamentos de Solda,Máquina de Solda MIG,EQP201
+Equipamentos de Solda,Eletrodo de Solda Inox,MAT201
+Equipamentos de Solda,Máscara de Solda Automática,MAT202
+Equipamentos de Solda,Maçarico de Corte Oxiacetilênico,EQP202
+Equipamentos de Solda,Tocha de Solda TIG,MAT203
+Equipamentos de Solda,Fio de Solda MIG ER70S-6,MAT204
+Equipamentos de Solda,Regulador de Pressão para Gás,MAT205
+Equipamentos de Solda,Tubo de Gás Acetileno,MAT206
+Lubrificação e Manutenção,Graxa Industrial,MAT301
+Lubrificação e Manutenção,Óleo Lubrificante 10W30,MAT302
+Lubrificação e Manutenção,Bomba de Graxa Pneumática,EQP301
+Lubrificação e Manutenção,Limpa Contatos Elétricos,MAT303
+Lubrificação e Manutenção,Spray Desengripante,MAT304
+Lubrificação e Manutenção,Veda Rosca em Fita,MAT305
+Equipamentos de Segurança,Capacete de Segurança com Aba,MAT401
+Equipamentos de Segurança,Luvas Térmicas de Alta Resistência,MAT402
+Equipamentos de Segurança,Óculos de Proteção Antirrespingos,MAT403
+Equipamentos de Segurança,Protetor Auricular Tipo Plug,MAT404
+Equipamentos de Segurança,Máscara Respiratória com Filtro P3,MAT405
+Equipamentos de Segurança,Cinto de Segurança para Trabalho em Altura,MAT406
+Equipamentos de Segurança,Sapato de Segurança com Biqueira de Aço,MAT407
+Equipamentos de Segurança,Protetor Facial de Policarbonato,MAT408
+Equipamentos de Elevação,Talha Elétrica de Corrente,EQP501
+Equipamentos de Elevação,Corrente de Elevação de 10m,MAT501
+Equipamentos de Elevação,Gancho Giratório com Trava de Segurança,MAT502
+Equipamentos de Elevação,Cinta de Elevação com Olhal,MAT503
+Equipamentos de Elevação,Carrinho de Transporte de Bobinas,EQP502
+Equipamentos de Elevação,Macaco Hidráulico 10 Toneladas,EQP503
+Componentes Mecânicos,Rolamento Esférico de Precisão,MAT601
+Componentes Mecânicos,Parafuso de Alta Resistência M12,MAT602
+Componentes Mecânicos,Correia de Transmissão Industrial,MAT603
+Componentes Mecânicos,Junta de Vedação em Borracha,MAT604
+Componentes Mecânicos,Engrenagem Cilíndrica de Aço,MAT605
+Componentes Mecânicos,Bucha de Bronze Autolubrificante,MAT606
+Componentes Mecânicos,Eixo de Transmissão,MAT607
+Componentes Mecânicos,Polia de Alumínio,MAT608
+Equipamentos Hidráulicos,Válvula Solenoide Hidráulica,EQP601
+Equipamentos Hidráulicos,Bomba Hidráulica de Pistão,EQP602
+Equipamentos Hidráulicos,Mangueira Hidráulica de Alta Pressão,MAT701
+Equipamentos Hidráulicos,Conector Hidráulico Rápido,MAT702
+Equipamentos Elétricos,Motor Elétrico Trifásico 5HP,EQP701
+Equipamentos Elétricos,Cabo Elétrico 10mm²,MAT801
+Equipamentos Elétricos,Disjuntor de 100A,MAT802
+Equipamentos Elétricos,Quadro de Comando Elétrico com Inversor de Frequência,EQP702
+Equipamentos Elétricos,Chave Seccionadora,MAT803
+Equipamentos Elétricos,Fusível NH 100A,MAT804
+Equipamentos Elétricos,Tomada Industrial 380V,MAT805
+Ferramentas Manuais,Chave de Fenda Phillips 6mm,MAT901
+Ferramentas Manuais,Alicate de Corte,MAT902
+Ferramentas Manuais,Martelo de Borracha,MAT903
+Ferramentas Manuais,Torquímetro 40-200Nm,MAT904
+Ferramentas Manuais,Conjunto de Chaves Allen,MAT905
+Ferramentas Manuais,Chave Estrela 12mm,MAT906
+Ferramentas Manuais,Serra Manual,MAT907
