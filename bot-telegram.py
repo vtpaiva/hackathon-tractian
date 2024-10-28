@@ -28,8 +28,8 @@ async def audio_handler(update: Update, context):
         await update.message.reply_text(f"Ocorreu um erro ao processar o áudio: {e}")
 
     # Remover o arquivo de áudio baixado (opcional)
-    os.remove(audio_path)
-    print(f"Arquivo de áudio {audio_path} removido.")
+    #os.remove(audio_path)
+    #print(f"Arquivo de áudio {audio_path} removido.")
 
 if __name__ == "__main__":
     # Criar uma instância do bot

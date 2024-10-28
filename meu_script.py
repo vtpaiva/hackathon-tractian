@@ -4,9 +4,10 @@ import openai
 client = OpenAI()
 
 def process_audio(file_path):
+    audio_file= open(file_path, "rb")
     transcription = client.audio.transcriptions.create(
     model="whisper-1", 
-    file=file_path
+    file=audio_file
     )
 
     texto = transcription.text
@@ -34,12 +35,12 @@ if __name__ == "__main__":
 
     file_path = sys.argv[1]
     resultado = process_audio(file_path)
-    #print(resultado)
+    print(resultado)
 
     #print('------------------RESPOSTAGPT------------------------')
 
     # Exemplo de uso da função
-    prompt = f'A partir do texto a seguir, poderia identificar e listar quais são os serviços mencionados, o texto é {resultado}'
-    resposta = gerar_resposta(prompt)
-    print("Resposta:", resposta)
+    #prompt = f'A partir do texto a seguir, poderia identificar e listar quais são os serviços mencionados, o texto é {resultado}'
+    #resposta = gerar_resposta(prompt)
+    #print("Resposta:")
 
