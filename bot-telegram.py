@@ -4,7 +4,7 @@ import subprocess
 import os
 
 # token bot telegram
-TOKEN = "7818166008:AAFbzLkyRsNXCSxyrNMWcFli6HBEtvhmfoQ"
+TOKEN = "token aqui"
 
 # mensagem inicial de boas vindas
 async def start(update: Update, context):
