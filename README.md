@@ -133,8 +133,9 @@ if __name__ == "__main__":
 ```
 ### Flowchart
 
-![Flowchart](https://i.imgur.com/ghhzCW6.png)
-
+<p align="center">
+<img src="https://i.imgur.com/ghhzCW6.png" style=" height: auto; width: 600px;">
+</p>
 
 ### Conclusion
 
