@@ -3,6 +3,7 @@ from openai import OpenAI
 import openai
 import pandas as pd
 import json
+
 client = OpenAI()
 
 def process_audio(file_path):
